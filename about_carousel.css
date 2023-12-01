@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: auto;
+    background-color: rgb(246, 251, 253);
+}
+
+.top-division {
+    display: flex;
+    position: absolute;
+    /* background-color: red; */
+    height: 20%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-division h1 {
+    font-size: 8vh;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 5%;
+    /* text-decoration-color: rgb(80, 161, 255); */
+    text-decoration-color: rgb(156, 202, 255);
+
+
+}
+
+.bottom-division {
+    display: flex;
+    position: absolute;
+    /* background-color: yellow; */
+    height: 80%;
+    width: 100%;
+    top: 20%;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-division .card {
+    padding-top: 1%;
+    display: flex;
+    position: absolute;
+    background-color: white;
+    height: 90%;
+    width: 60%;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 3px #b1b1b1;
+    align-items: center;
+}
+
+.bottom-division .card .image-class {
+    display: flex;
+    position: absolute;
+    /* background-color: blue; */
+    height: 30%;
+    width: 17.5%;
+    border: 2px solid white;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.bottom-division .card .name-class {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    height: 5%;
+    width: 100%;
+    top: 35%;
+    font-size: 2.4vh;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.bottom-division .card .work-class {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    color: rgb(80, 161, 255);
+    height: 5%;
+    width: 100%;
+    top: 42%;
+    font-size: 2.3vh;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-division .card .about-class {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    color: rgb(25, 91, 165);
+    height: 35%;
+    width: 100%;
+    top: 47%;
+    padding: 3%;
+    font-size: 2.9vh;
+    font-family: 'ABeeZee', sans-serif;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottom-division .card .change-carousel {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    height: 10%;
+    width: 100%;
+    top: 80%;
+    padding: 3%;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bottom-division .card .change-carousel button {
+    position: relative;
+    background-color: white;
+    /* border: 1px solid rgb(216, 216, 216); */
+    border: 1px solid white;
+    color: rgb(74, 154, 197);
+    font-size: 4vh;
+    border-radius: 15%;
+
+}
+
+.change-btn {
+    background-color: white;
+}
+
+.bottom-division .card .surprise-button-class {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 90%;
+    border-radius: 2vh;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom-division .card .surprise-button-class button {
+    position: relative;
+    background-color: rgb(224, 246, 255);
+    border: 1px solid rgb(74, 154, 197);
+    border-radius: 15px;
+    font-size: 3vh;
+}
