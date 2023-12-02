@@ -1,5 +1,5 @@
 <h2>About Carousel</h2>
-<br><br><br>
+<br><br>
 This website contains a carousel which contains name of the person, their image and description about them.
 <br>
 This carousel contains two buttons to change the about section left or right.
